@@ -1,0 +1,50 @@
+<svg width="420" height="560" viewBox="0 0 420 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5ecd0"/>
+      <stop offset="100%" stop-color="#e9dcb8"/>
+    </linearGradient>
+    <linearGradient id="frameGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2c14e"/>
+      <stop offset="100%" stop-color="#a8791f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="560" fill="#0b1120"/>
+  <rect x="10" y="10" width="400" height="540" fill="url(#paper)" stroke="#3a2c1a" stroke-width="6"/>
+  <rect x="22" y="22" width="376" height="516" fill="none" stroke="#3a2c1a" stroke-width="2"/>
+
+  <!-- torn edge effect (simple notches) -->
+  <g fill="#0b1120">
+    <polygon points="10,10 30,10 10,30"/>
+    <polygon points="410,10 390,10 410,30"/>
+    <polygon points="10,550 30,550 10,530"/>
+    <polygon points="410,550 390,550 410,530"/>
+  </g>
+
+  <text x="210" y="70" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#3a2c1a" letter-spacing="4">WANTED</text>
+  <text x="210" y="96" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#7a1f1f" letter-spacing="2">DEAD OR ALIVE</text>
+
+  <line x1="50" y1="110" x2="370" y2="110" stroke="#3a2c1a" stroke-width="1.5"/>
+
+  <!-- portrait frame -->
+  <rect x="85" y="130" width="250" height="250" fill="#1b263b" stroke="url(#frameGold)" stroke-width="6"/>
+  <g transform="translate(210,255)">
+    <!-- simple silhouette placeholder -->
+    <circle cx="0" cy="-30" r="55" fill="#0b1120"/>
+    <path d="M-80 90 Q -80 10 0 10 Q 80 10 80 90 Z" fill="#0b1120"/>
+    <!-- straw hat -->
+    <ellipse cx="0" cy="-70" rx="70" ry="14" fill="#e8b32b"/>
+    <path d="M-38 -70 Q 0 -120 38 -70 Z" fill="#f2c14e"/>
+    <rect x="-38" y="-75" width="76" height="8" fill="#c0392b"/>
+  </g>
+  <text x="210" y="405" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7a1f1f" opacity="0.8">(portrait: swap in your own avatar)</text>
+
+  <text x="210" y="435" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#3a2c1a" letter-spacing="2">DEVA DARSHAN</text>
+  <text x="210" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#3a2c1a" font-style="italic">"PCE05" — Wanderer of the Linux Seas</text>
+
+  <line x1="50" y1="475" x2="370" y2="475" stroke="#3a2c1a" stroke-width="1"/>
+
+  <text x="210" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7a1f1f">BOUNTY</text>
+  <text x="210" y="535" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#3a2c1a">฿ 999,999,999</text>
+</svg>

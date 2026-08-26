@@ -1,0 +1,76 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#1b263b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f2c14e"/>
+      <stop offset="50%" stop-color="#e8b32b"/>
+      <stop offset="100%" stop-color="#f2c14e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#f2c14e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f2c14e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- faint waves -->
+  <path d="M0 250 Q 60 235 120 250 T 240 250 T 360 250 T 480 250 T 600 250 T 720 250 T 840 250 T 960 250 T 1080 250 T 1200 250 V300 H0 Z" fill="#f2c14e" opacity="0.06"/>
+  <path d="M0 270 Q 60 258 120 270 T 240 270 T 360 270 T 480 270 T 600 270 T 720 270 T 840 270 T 960 270 T 1080 270 T 1200 270 V300 H0 Z" fill="#c0392b" opacity="0.08"/>
+
+  <!-- ornate border -->
+  <rect x="14" y="14" width="1172" height="272" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" rx="6"/>
+  <rect x="22" y="22" width="1156" height="256" fill="none" stroke="#f2c14e" stroke-width="1" opacity="0.35" rx="4"/>
+
+  <!-- corner flourishes -->
+  <g stroke="#f2c14e" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M14 44 L14 14 L44 14"/>
+    <path d="M1156 14 L1186 14 L1186 44"/>
+    <path d="M1186 256 L1186 286 L1156 286"/>
+    <path d="M44 286 L14 286 L14 256"/>
+  </g>
+
+  <!-- Jolly Roger: straw hat over crossbones -->
+  <g transform="translate(120,150)">
+    <circle cx="0" cy="0" r="62" fill="#111a2e" stroke="#f2c14e" stroke-width="2.5"/>
+    <!-- crossbones -->
+    <g stroke="#e8dcc8" stroke-width="6" stroke-linecap="round" opacity="0.9">
+      <line x1="-30" y1="-30" x2="30" y2="30"/>
+      <line x1="30" y1="-30" x2="-30" y2="30"/>
+    </g>
+    <circle cx="-30" cy="-30" r="5" fill="#e8dcc8"/>
+    <circle cx="30" cy="-30" r="5" fill="#e8dcc8"/>
+    <circle cx="-30" cy="30" r="5" fill="#e8dcc8"/>
+    <circle cx="30" cy="30" r="5" fill="#e8dcc8"/>
+    <!-- skull -->
+    <ellipse cx="0" cy="-6" rx="24" ry="22" fill="#f5ecd7"/>
+    <path d="M-24 -6 Q -24 16 0 20 Q 24 16 24 -6 Z" fill="#f5ecd7"/>
+    <circle cx="-9" cy="-8" r="5.5" fill="#111a2e"/>
+    <circle cx="9" cy="-8" r="5.5" fill="#111a2e"/>
+    <path d="M-3 3 L3 3 L0 9 Z" fill="#111a2e"/>
+    <path d="M-9 12 L-3 12 M3 12 L9 12" stroke="#111a2e" stroke-width="2"/>
+    <!-- straw hat -->
+    <ellipse cx="0" cy="-24" rx="34" ry="8" fill="#e8b32b"/>
+    <path d="M-18 -24 Q 0 -50 18 -24 Z" fill="#f2c14e"/>
+    <rect x="-18" y="-27" width="36" height="6" fill="#c0392b"/>
+  </g>
+
+  <!-- main text -->
+  <text x="230" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="bold" fill="url(#goldGrad)" letter-spacing="2">CAPTAIN DEVA DARSHAN</text>
+  <text x="232" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#c0392b" font-style="italic" letter-spacing="3">CODE PIRATE  •  LINUX WANDERER  •  PC ENTHUSIAST</text>
+  <text x="232" y="215" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8dcc8" opacity="0.85">"Sailing the Grand Line of code, one repository at a time."</text>
+
+  <!-- small compass -->
+  <g transform="translate(1090,150)" opacity="0.9">
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#f2c14e" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#f2c14e"/>
+    <path d="M0 -38 L8 0 L0 38 L-8 0 Z" fill="#c0392b"/>
+    <path d="M-38 0 L0 -8 L38 0 L0 8 Z" fill="#e8dcc8" opacity="0.7"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#f2c14e">N</text>
+  </g>
+</svg>
