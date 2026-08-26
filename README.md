@@ -46,8 +46,8 @@ Ahoy! I'm **Deva Darshan**, sailing under the flag **PCE05** — a **Code Pirate
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=devadarshan5&show_icons=true&hide_border=true&bg_color=0b1120&title_color=f2c14e&text_color=e8dcc8&icon_color=c0392b&ring_color=f2c14e" alt="GitHub Stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devadarshan5&layout=compact&hide_border=true&bg_color=0b1120&title_color=f2c14e&text_color=e8dcc8" alt="Top Languages" height="165">
+<img src="https://github-readme-stats-eight-gamma.vercel.app/api?username=devadarshan5&show_icons=true&hide_border=true&bg_color=0b1120&title_color=f2c14e&text_color=e8dcc8&icon_color=c0392b&ring_color=f2c14e" alt="GitHub Stats" height="165">
+<img src="https://github-readme-stats-eight-gamma.vercel.app/api/top-langs/?username=devadarshan5&layout=compact&hide_border=true&bg_color=0b1120&title_color=f2c14e&text_color=e8dcc8" alt="Top Languages" height="165">
 
 <br>
 
@@ -55,7 +55,7 @@ Ahoy! I'm **Deva Darshan**, sailing under the flag **PCE05** — a **Code Pirate
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=devadarshan5&theme=react-dark&bg_color=0b1120&color=f2c14e&line=c0392b&point=e8dcc8&hide_border=true&area=true" alt="Contribution Graph" width="100%">
+<img src="https://raw.githubusercontent.com/devadarshan5/devadarshan5/output/pirate-activity-graph.svg" alt="Contribution Graph" width="100%">
 
 </div>
 
